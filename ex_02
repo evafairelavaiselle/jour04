@@ -8,8 +8,6 @@ function findHousing (housingToFind,housingList){
   }
 return null
 }
-//Some code to display your function output: (you must modify it but /!\ do not deliver it /!\ ). Only deliver your function
-
  
 
 displayResult(findHousing("Igloo",["Flat", "House", "Hut", "House", "Igloo"]))
