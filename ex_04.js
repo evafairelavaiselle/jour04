@@ -1,5 +1,5 @@
-function capitalize(maj) {
-    return maj.map(maj => maj.toUpperCase())
+function capitalize(words) {
+    return words.map(words => words.toUpperCase())
   }
   
   console.log(capitalize(['CapITAlize', 'tHis', 'text']))
