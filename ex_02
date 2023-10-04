@@ -1,0 +1,15 @@
+function findHousing (housingToFind,housingList){
+    let index = 0;
+  while (index < housingList.length){
+    if (housingList[index] === housingToFind){
+        return [index+1, housingList[index]];
+    }
+   index++;
+  }
+return null
+}
+//Some code to display your function output: (you must modify it but /!\ do not deliver it /!\ ). Only deliver your function
+
+ 
+
+displayResult(findHousing("Igloo",["Flat", "House", "Hut", "House", "Igloo"]))
